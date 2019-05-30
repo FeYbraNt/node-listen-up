@@ -19,3 +19,16 @@ The web service is based on a theoretical internet radio project called “Liste
 ## How to run
 
 `npm run start`
+
+## Code structure
+
+```
+api
+  router.js     // Router for Listen up service
+  user.js       // User Model
+..
+services        // Folder with Friends, Plays & Tracks services
+..
+app.js          // Listen up app service
+index.js
+```
